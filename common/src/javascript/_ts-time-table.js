@@ -1075,7 +1075,7 @@ Ext.override(Rally.ui.grid.plugin.Validation,{
                     disabled: disabled,
                     selectOnFocus: true,
                     listeners: {
-                        change: function(field, new_value, old_value) {1
+                        change: function(field, new_value, old_value) {
                             if ( Ext.isEmpty(new_value) ) {
                                 field.setValue(0);
                             }
